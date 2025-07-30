@@ -1,0 +1,308 @@
+﻿<Project xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <ProductVersion>16.0.20820.0</ProductVersion>
+  <SchemaVersion>9.0.2.10</SchemaVersion>
+  <State>$base64$PFNvdXJjZUNvbnRyb2xJbmZvIHhtbG5zOnhzZD0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEiIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiIHhtbG5zOmRkbDI9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDAzL2VuZ2luZS8yIiB4bWxuczpkZGwyXzI9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDAzL2VuZ2luZS8yLzIiIHhtbG5zOmRkbDEwMF8xMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDA4L2VuZ2luZS8xMDAvMTAwIiB4bWxuczpkZGwyMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEwL2VuZ2luZS8yMDAiIHhtbG5zOmRkbDIwMF8yMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEwL2VuZ2luZS8yMDAvMjAwIiB4bWxuczpkZGwzMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDExL2VuZ2luZS8zMDAiIHhtbG5zOmRkbDMwMF8zMDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDExL2VuZ2luZS8zMDAvMzAwIiB4bWxuczpkZGw0MDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEyL2VuZ2luZS80MDAiIHhtbG5zOmRkbDQwMF80MDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEyL2VuZ2luZS80MDAvNDAwIiB4bWxuczpkZGw1MDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEzL2VuZ2luZS81MDAiIHhtbG5zOmRkbDUwMF81MDA9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vYW5hbHlzaXNzZXJ2aWNlcy8yMDEzL2VuZ2luZS81MDAvNTAwIiB4bWxuczpkd2Q9Imh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vRGF0YVdhcmVob3VzZS9EZXNpZ25lci8xLjAiPg0KICA8RW5hYmxlZD5mYWxzZTwvRW5hYmxlZD4NCiAgPFByb2plY3ROYW1lPjwvUHJvamVjdE5hbWU+DQogIDxBdXhQYXRoPjwvQXV4UGF0aD4NCiAgPExvY2FsUGF0aD48L0xvY2FsUGF0aD4NCiAgPFByb3ZpZGVyPjwvUHJvdmlkZXI+DQo8L1NvdXJjZUNvbnRyb2xJbmZvPg==</State>
+  <Database>
+    <Name>SUPERAUTOSFINAL.database</Name>
+    <FullPath>SUPERAUTOSFINAL.database</FullPath>
+  </Database>
+  <Cubes>
+    <ProjectItem>
+      <Name>Dw SUPERAUTOSFinal8.cube</Name>
+      <FullPath>Dw SUPERAUTOSFinal8.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Dw SUPERAUTOSFinal8.partitions</Name>
+          <FullPath>Dw SUPERAUTOSFinal8.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dw SUPERAUTOSFinal3.cube</Name>
+      <FullPath>Dw SUPERAUTOSFinal3.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Dw SUPERAUTOSFinal3.partitions</Name>
+          <FullPath>Dw SUPERAUTOSFinal3.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dw SUPERAUTOSFinal2.cube</Name>
+      <FullPath>Dw SUPERAUTOSFinal2.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Dw SUPERAUTOSFinal2.partitions</Name>
+          <FullPath>Dw SUPERAUTOSFinal2.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dw SUPERAUTOSFinal6.cube</Name>
+      <FullPath>Dw SUPERAUTOSFinal6.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Dw SUPERAUTOSFinal6.partitions</Name>
+          <FullPath>Dw SUPERAUTOSFinal6.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dw SUPERAUTOSFinal7.cube</Name>
+      <FullPath>Dw SUPERAUTOSFinal7.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Dw SUPERAUTOSFinal7.partitions</Name>
+          <FullPath>Dw SUPERAUTOSFinal7.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dw SUPERAUTOSFinal9.cube</Name>
+      <FullPath>Dw SUPERAUTOSFinal9.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Dw SUPERAUTOSFinal9.partitions</Name>
+          <FullPath>Dw SUPERAUTOSFinal9.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dw SUPERAUTOSFinal4.cube</Name>
+      <FullPath>Dw SUPERAUTOSFinal4.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Dw SUPERAUTOSFinal4.partitions</Name>
+          <FullPath>Dw SUPERAUTOSFinal4.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dw SUPERAUTOSFinal5.cube</Name>
+      <FullPath>Dw SUPERAUTOSFinal5.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Dw SUPERAUTOSFinal5.partitions</Name>
+          <FullPath>Dw SUPERAUTOSFinal5.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dw SUPERAUTOSFinal10.cube</Name>
+      <FullPath>Dw SUPERAUTOSFinal10.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Dw SUPERAUTOSFinal10.partitions</Name>
+          <FullPath>Dw SUPERAUTOSFinal10.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+  </Cubes>
+  <Dimensions>
+    <ProjectItem>
+      <Name>Dw Productos.dim</Name>
+      <FullPath>Dw Productos.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dw Sucursales.dim</Name>
+      <FullPath>Dw Sucursales.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dw Fechas.dim</Name>
+      <FullPath>Dw Fechas.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dw Empleados.dim</Name>
+      <FullPath>Dw Empleados.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dw Planilla Pagos.dim</Name>
+      <FullPath>Dw Planilla Pagos.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dw Empleados 1.dim</Name>
+      <FullPath>Dw Empleados 1.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dw Sucursales 1.dim</Name>
+      <FullPath>Dw Sucursales 1.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dw Productos4.dim</Name>
+      <FullPath>Dw Productos4.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dw Alquileres.dim</Name>
+      <FullPath>Dw Alquileres.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dw Ventas.dim</Name>
+      <FullPath>Dw Ventas.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dw Ventas 1.dim</Name>
+      <FullPath>Dw Ventas 1.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dw Clientes.dim</Name>
+      <FullPath>Dw Clientes.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dw Ventas 2.dim</Name>
+      <FullPath>Dw Ventas 2.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dw Clientes 1.dim</Name>
+      <FullPath>Dw Clientes 1.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dw Productos 1.dim</Name>
+      <FullPath>Dw Productos 1.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dw Empleados 2.dim</Name>
+      <FullPath>Dw Empleados 2.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dw Sucursales 2.dim</Name>
+      <FullPath>Dw Sucursales 2.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dw Ventas 3.dim</Name>
+      <FullPath>Dw Ventas 3.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dw Alquileres 1.dim</Name>
+      <FullPath>Dw Alquileres 1.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dw Sucursales 3.dim</Name>
+      <FullPath>Dw Sucursales 3.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dw Empleados 3.dim</Name>
+      <FullPath>Dw Empleados 3.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dw Clientes 2.dim</Name>
+      <FullPath>Dw Clientes 2.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dw Productos 2.dim</Name>
+      <FullPath>Dw Productos 2.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dw Empleados 4.dim</Name>
+      <FullPath>Dw Empleados 4.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dw Planilla Pagos 1.dim</Name>
+      <FullPath>Dw Planilla Pagos 1.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dw Clientes 3.dim</Name>
+      <FullPath>Dw Clientes 3.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dw Ventas 4.dim</Name>
+      <FullPath>Dw Ventas 4.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dw Alquileres 2.dim</Name>
+      <FullPath>Dw Alquileres 2.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dw Clientes 4.dim</Name>
+      <FullPath>Dw Clientes 4.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dw Ventas 5.dim</Name>
+      <FullPath>Dw Ventas 5.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dw Alquileres 3.dim</Name>
+      <FullPath>Dw Alquileres 3.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dw Productos 3.dim</Name>
+      <FullPath>Dw Productos 3.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dw Proveedores.dim</Name>
+      <FullPath>Dw Proveedores.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dw Ventas 6.dim</Name>
+      <FullPath>Dw Ventas 6.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dw Transacciones.dim</Name>
+      <FullPath>Dw Transacciones.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dw Usuarios.dim</Name>
+      <FullPath>Dw Usuarios.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dw Categorias.dim</Name>
+      <FullPath>Dw Categorias.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dw Productos 4.dim</Name>
+      <FullPath>Dw Productos 4.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dw Fechas 1.dim</Name>
+      <FullPath>Dw Fechas 1.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dw Sucursales 4.dim</Name>
+      <FullPath>Dw Sucursales 4.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dw Transacciones 1.dim</Name>
+      <FullPath>Dw Transacciones 1.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dw Fechas 2.dim</Name>
+      <FullPath>Dw Fechas 2.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dw Usuarios 1.dim</Name>
+      <FullPath>Dw Usuarios 1.dim</FullPath>
+    </ProjectItem>
+  </Dimensions>
+  <DataSources>
+    <ProjectItem>
+      <Name>Dw SUPERAUTOSFinal.ds</Name>
+      <FullPath>Dw SUPERAUTOSFinal.ds</FullPath>
+    </ProjectItem>
+  </DataSources>
+  <DataSourceViews>
+    <ProjectItem>
+      <Name>Dw SUPERAUTOSFinal.dsv</Name>
+      <FullPath>Dw SUPERAUTOSFinal.dsv</FullPath>
+    </ProjectItem>
+  </DataSourceViews>
+  <Configurations>
+    <Configuration>
+      <Name>Development</Name>
+      <Options>
+        <ConnectionMappings>
+          <ConfigurationSetting>
+            <Id>Dw SUPERAUTOSFinal</Id>
+            <Name>Dw SUPERAUTOSFinal</Name>
+            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=DAYANNA;Password=;User ID=;Initial Catalog=Dw_SUPERAUTOSFinal</Value>
+          </ConfigurationSetting>
+        </ConnectionMappings>
+        <ConnectionSecurityMappings>
+          <ConfigurationSetting>
+            <Id>Dw SUPERAUTOSFinal</Id>
+            <Name>Dw SUPERAUTOSFinal</Name>
+            <Value xsi:type="xsd:int">1</Value>
+          </ConfigurationSetting>
+        </ConnectionSecurityMappings>
+      </Options>
+    </Configuration>
+  </Configurations>
+</Project>

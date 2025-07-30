@@ -1,0 +1,388 @@
+﻿<ConfigurationSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Database>
+    <DataSources>
+      <DataSource>
+        <ID>Dw SUPERAUTOSFinal</ID>
+        <ConnectionString>Provider=SQLNCLI11.1;Data Source=DAYANNA;Password=;User ID=;Initial Catalog=Dw_SUPERAUTOSFinal</ConnectionString>
+        <ImpersonationInfo>
+          <ImpersonationMode xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">ImpersonateServiceAccount</ImpersonationMode>
+          <ImpersonationInfoSecurity xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">Unchanged</ImpersonationInfoSecurity>
+        </ImpersonationInfo>
+      </DataSource>
+    </DataSources>
+    <Dimensions>
+      <Dimension>
+        <ID>Dw Productos</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dw Sucursales</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dw Fechas</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dw Empleados</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dw Planilla Pagos</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dw Empleados 1</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dw Sucursales 1</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dw Productos4</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dw Alquileres</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dw Ventas</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dw Ventas 1</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dw Clientes</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dw Ventas 2</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dw Clientes 1</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dw Productos 1</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dw Empleados 2</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dw Sucursales 2</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dw Ventas 3</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dw Alquileres 1</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dw Sucursales 3</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dw Empleados 3</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dw Clientes 2</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dw Productos 2</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dw Empleados 4</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dw Planilla Pagos 1</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dw Clientes 3</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dw Ventas 4</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dw Alquileres 2</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dw Clientes 4</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dw Ventas 5</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dw Alquileres 3</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dw Productos 3</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dw Proveedores</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dw Ventas 6</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dw Transacciones</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dw Usuarios</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dw Categorias</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dw Productos 4</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dw Fechas 1</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dw Sucursales 4</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dw Transacciones 1</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dw Fechas 2</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dw Usuarios 1</ID>
+      </Dimension>
+    </Dimensions>
+    <Cubes>
+      <Cube>
+        <ID>Dw SUPERAUTOSFinal</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>Dw Productos</ID>
+            <Partitions>
+              <Partition>
+                <ID>Dw Productos</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>Dw Sucursales</ID>
+            <Partitions>
+              <Partition>
+                <ID>Dw Sucursales</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+      <Cube>
+        <ID>Dw SUPERAUTOSFinal3</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>Dw Empleados</ID>
+            <Partitions>
+              <Partition>
+                <ID>Dw Empleados</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>Dw Planilla Pagos</ID>
+            <Partitions>
+              <Partition>
+                <ID>Dw Planilla Pagos</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+      <Cube>
+        <ID>Dw SUPERAUTOSFinal2</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>Dw Empleados</ID>
+            <Partitions>
+              <Partition>
+                <ID>Dw Empleados</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>Dw Sucursales</ID>
+            <Partitions>
+              <Partition>
+                <ID>Dw Sucursales</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+      <Cube>
+        <ID>Dw SUPERAUTOSFinal6</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>Dw Empleados</ID>
+            <Partitions>
+              <Partition>
+                <ID>Dw Empleados</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>Dw Sucursales</ID>
+            <Partitions>
+              <Partition>
+                <ID>Dw Sucursales</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>Dw Ventas</ID>
+            <Partitions>
+              <Partition>
+                <ID>Dw Ventas</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+      <Cube>
+        <ID>Dw SUPERAUTOSFinal7</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>Dw Alquileres</ID>
+            <Partitions>
+              <Partition>
+                <ID>Dw Alquileres</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>Dw Sucursales</ID>
+            <Partitions>
+              <Partition>
+                <ID>Dw Sucursales</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>Dw Empleados</ID>
+            <Partitions>
+              <Partition>
+                <ID>Dw Empleados</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>Dw Clientes</ID>
+            <Partitions>
+              <Partition>
+                <ID>Dw Clientes</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>Dw Productos</ID>
+            <Partitions>
+              <Partition>
+                <ID>Dw Productos</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+      <Cube>
+        <ID>Dw SUPERAUTOSFinal9</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>Dw Clientes</ID>
+            <Partitions>
+              <Partition>
+                <ID>Dw Clientes</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>Dw Ventas</ID>
+            <Partitions>
+              <Partition>
+                <ID>Dw Ventas</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>Dw Alquileres</ID>
+            <Partitions>
+              <Partition>
+                <ID>Dw Alquileres</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+      <Cube>
+        <ID>Dw SUPERAUTOSFinal4</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>Dw Productos</ID>
+            <Partitions>
+              <Partition>
+                <ID>Dw Productos</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>Dw Proveedores</ID>
+            <Partitions>
+              <Partition>
+                <ID>Dw Proveedores</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+      <Cube>
+        <ID>Dw SUPERAUTOSFinal5</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>Dw Fechas</ID>
+            <Partitions>
+              <Partition>
+                <ID>Dw Fechas</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>Dw Sucursales</ID>
+            <Partitions>
+              <Partition>
+                <ID>Dw Sucursales</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>Dw Transacciones</ID>
+            <Partitions>
+              <Partition>
+                <ID>Dw Transacciones</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+      <Cube>
+        <ID>Dw SUPERAUTOSFinal10</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>Dw Fechas</ID>
+            <Partitions>
+              <Partition>
+                <ID>Dw Fechas</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>Dw Usuarios</ID>
+            <Partitions>
+              <Partition>
+                <ID>Dw Usuarios</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+    </Cubes>
+    <DataSourceImpersonationInfo>
+      <ImpersonationMode xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">Default</ImpersonationMode>
+      <ImpersonationInfoSecurity xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">Unchanged</ImpersonationInfoSecurity>
+    </DataSourceImpersonationInfo>
+  </Database>
+</ConfigurationSettings>

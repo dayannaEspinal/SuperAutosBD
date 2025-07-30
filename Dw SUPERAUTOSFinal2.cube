@@ -1,0 +1,357 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="9f070eb4-933b-4c4b-aee0-5279234fbb47" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Dw SUPERAUTOSFinal2</ID>
+  <Name>Dw SUPERAUTOSFinal2</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-3443" scrolltop="-2720" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="19050" y="10351" backcolor="2039583" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dw_Sucursales" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="4530" height="3387" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b21100003b0d0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Dw_Sucursales" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dw_Empleados" left="7550" top="0" logicalid="2" controlid="2" masterid="0" hint1="0" hint2="0" width="4149" height="4466" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00003510000072110000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Dw_Empleados" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-3443</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-2720</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="64c072d8-6aaf-406f-af44-09a397cba31c">
+      <ID>Dw Empleados</ID>
+      <Name>Dw Empleados</Name>
+      <DimensionID>Dw Empleados</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="904d506c-c638-4d0e-aca9-e006ab490483">
+          <AttributeID>ID EMPLEADO</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="4e1b9187-8dbf-4fa1-9b76-e8dae384c314">
+          <AttributeID>NOMBRE COMPLETO</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="75ace326-c9e3-4426-8136-07262334ac96">
+          <AttributeID>JORNADA</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9e876413-6e3e-4506-8872-05cd987e4cb5">
+          <AttributeID>NOMBRE PUESTO</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="057f0788-501f-433b-88bf-96e7cc2c8879">
+      <ID>Dw Empleados 1</ID>
+      <Name>Dw Empleados 1</Name>
+      <DimensionID>Dw Empleados 1</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="5f1d5907-9096-4e4b-a468-c07d42cc64b5">
+          <AttributeID>ID EMPLEADO</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="93da33ce-ded9-4b01-8519-51ba2d6125ac">
+          <AttributeID>JORNADA</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="23b486a9-b2e5-4519-b389-c24f508109fc">
+          <AttributeID>SALARIO</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="49e6c844-4efa-4218-97ba-3cc6e388aaa3">
+          <AttributeID>NOMBRE PUESTO</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="95f479c5-4933-47a4-856a-8e4fb62cc04b">
+      <ID>Dw Sucursales</ID>
+      <Name>Dw Sucursales</Name>
+      <DimensionID>Dw Sucursales</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="5e2d27da-a467-4533-8a4c-f74f76ef63bc">
+          <AttributeID>ID SUCURSAL</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ceb31e84-6026-40c3-bfd4-5e297984f922">
+          <AttributeID>NOMBRE SUCURSAL</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9f0fc16f-00f4-4fb9-96e4-625a2aae33f1">
+          <AttributeID>CANTIDAD VENTAS</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="97937af6-310e-4a1d-aa26-f6d8b2aa90bf">
+          <AttributeID>CANTIDAD ALQUILERES</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="52130aa7-a8fe-4fb2-ae44-750b37d24e6b">
+          <AttributeID>TOTAL INGRESOS</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="f6b06bb9-c53f-4151-b3cc-a388baa89ef3">
+      <ID>Dw Sucursales 1</ID>
+      <Name>Dw Sucursales 1</Name>
+      <DimensionID>Dw Sucursales 1</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="07e26f23-b539-43c0-a9c4-b32855b48380">
+          <AttributeID>ID SUCURSAL</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e6a104a5-af6e-457b-82eb-157b05111558">
+          <AttributeID>CUIDAD</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8e11c5e9-0aba-424d-b321-0832426d6636">
+          <AttributeID>NOMBRE SUCURSAL</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="8f70a0c2-edbd-4009-98c6-582845b964df">
+      <ID>Dw Empleados</ID>
+      <Name>Dw Empleados</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="5f22a0ac-171f-4fc9-934c-b87cb0cc1244">
+          <ID>TELEFONO</ID>
+          <Name>TELEFONO</Name>
+          <Source dwd:design-time-name="2a60320a-717a-47a3-8e5d-f714149a2a68">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="19e70543-1944-4326-8e8d-c0de93330f02">
+              <TableID>dbo_Dw_Empleados</TableID>
+              <ColumnID>TELEFONO</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="a49b34a8-6750-4284-a0ac-f62582a852ff">
+          <ID>SALARIO</ID>
+          <Name>SALARIO</Name>
+          <Source dwd:design-time-name="d77534f9-46f2-4751-9dd8-8ed862109e71">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="82480430-8fb5-4606-ae39-40f0d86d22ef">
+              <TableID>dbo_Dw_Empleados</TableID>
+              <ColumnID>SALARIO</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="4866e9d8-f0b9-400e-9209-a41e42fee397">
+          <ID>Recuento Dw Empleados</ID>
+          <Name>Recuento Dw Empleados</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="d45a2979-fd0a-4d6b-82fe-8efcdf68f204">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="a41609d3-7d27-4742-928b-4e4fa93545f1">
+              <TableID>dbo_Dw_Empleados</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="552972f0-0c7f-4b44-b565-85b61f21ca45">
+          <CubeDimensionID>Dw Empleados</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="d12d8ae0-2e55-475d-83a4-d8aee626dfa8">
+              <AttributeID>ID EMPLEADO</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="2c37029d-d159-4646-92b3-8fb1407c3059">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="6f65f168-69a3-48ea-bc6c-2f357ffd2f20">
+                    <TableID>dbo_Dw_Empleados</TableID>
+                    <ColumnID>ID_EMPLEADO</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="5e18355d-3a7c-4dcf-8a22-9df4eb5e6f02">
+          <CubeDimensionID>Dw Empleados 1</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="82d3b5c0-dc49-43f1-a39e-78d024560770">
+              <AttributeID>ID EMPLEADO</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="f557c0f6-3ad3-48d2-8d02-38749511d7d6">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="dbc31dfe-4fda-4ddd-81a6-acf0a2b6758f">
+                    <TableID>dbo_Dw_Empleados</TableID>
+                    <ColumnID>ID_EMPLEADO</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="d9c382c3-650d-43cf-8f4b-c2fefcc9d349">
+      <ID>Dw Sucursales</ID>
+      <Name>Dw Sucursales</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="1e4d7633-66f3-4595-a58d-ae7be7a546db">
+          <ID>CANTIDAD EMPLEADOS</ID>
+          <Name>CANTIDAD EMPLEADOS</Name>
+          <Source dwd:design-time-name="fa9985ba-25d0-433d-a74f-00d486f13e74">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="bb6b94e1-a50b-40b4-b05f-a6eae855a4c3">
+              <TableID>dbo_Dw_Sucursales</TableID>
+              <ColumnID>CANTIDAD_EMPLEADOS</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="d352dea7-c3d4-43b7-8a39-c38fdc376a99">
+          <ID>CANTIDAD VENTAS</ID>
+          <Name>CANTIDAD VENTAS</Name>
+          <Source dwd:design-time-name="73b9817f-ff1f-454d-92dd-df995b487e52">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="058420b5-9452-4452-8571-b7401c4feda1">
+              <TableID>dbo_Dw_Sucursales</TableID>
+              <ColumnID>CANTIDAD_VENTAS</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="635fccb9-8b44-420e-8e2b-0818d31bbe7f">
+          <ID>CANTIDAD ALQUILERES</ID>
+          <Name>CANTIDAD ALQUILERES</Name>
+          <Source dwd:design-time-name="bdb08bef-f35e-4b31-8508-404c3a213b03">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="8bc0b85c-89ed-476b-8f55-24e8e14b2027">
+              <TableID>dbo_Dw_Sucursales</TableID>
+              <ColumnID>CANTIDAD_ALQUILERES</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="b9c3f5ef-14a2-469b-aba4-228113358320">
+          <ID>TOTAL INGRESOS</ID>
+          <Name>TOTAL INGRESOS</Name>
+          <Source dwd:design-time-name="4f2cd3e6-13b2-403e-9489-092a56ce2cda">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="7a7387b7-f993-4ecf-a897-a115720a1e60">
+              <TableID>dbo_Dw_Sucursales</TableID>
+              <ColumnID>TOTAL_INGRESOS</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="5e07a3b6-3d36-4359-a185-91cb92776aa5">
+          <ID>Recuento Dw Sucursales</ID>
+          <Name>Recuento Dw Sucursales</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="5e22bc7b-1b8a-4f9d-975a-dfbf9fe7b8eb">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="4e1b0519-0460-49db-9f6f-3aa18f70cdde">
+              <TableID>dbo_Dw_Sucursales</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="e574b62b-2b4c-45e4-96e4-5b918d59d15a">
+          <CubeDimensionID>Dw Sucursales</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="e02f08bc-13e9-40cd-962e-f0a4aa258581">
+              <AttributeID>ID SUCURSAL</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="c50200d7-4895-457b-b940-115067de3719">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="c3778a03-55b5-420e-b8be-05fbf99e33e5">
+                    <TableID>dbo_Dw_Sucursales</TableID>
+                    <ColumnID>ID_SUCURSAL</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="1e7d25ca-8f7f-4e59-a1bd-d77679935afb">
+          <CubeDimensionID>Dw Sucursales 1</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="f1b7f05c-cba4-4dbe-9152-049bf74f982c">
+              <AttributeID>ID SUCURSAL</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="f01eb7a9-dc1a-4e1f-a062-30e74e5bd0df">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="a57055b1-f36f-4081-beab-c729c58bc030">
+                    <TableID>dbo_Dw_Sucursales</TableID>
+                    <ColumnID>ID_SUCURSAL</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="d0ac7293-511a-4d87-a2ab-dd68c144d9d8">
+    <DataSourceViewID>Dw SUPERAUTOSFinal</DataSourceViewID>
+  </Source>
+</Cube>

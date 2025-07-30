@@ -1,0 +1,411 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>SUPERAUTOSFINAL</Database>
+    <Server>DAYANNA</Server>
+    <ConnectionString>Data Source=DAYANNA;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>9oySwEhNDpSg89Yrc7M6jIOV/Z8=29/7/2025 21:05:0629/7/2025 17:20:11</TimeStamp>
+        <ID>
+          <String>Dw SUPERAUTOSFinal</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>mvBTDJAaVOHgwcc//EYFKnpoDpw=29/7/2025 17:20:3629/7/2025 17:20:35</TimeStamp>
+        <ID>
+          <String>Dw SUPERAUTOSFinal</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>cP24y5qhzgoSalwnUQXP4urwhyQ=29/7/2025 17:52:1029/7/2025 17:51:30</TimeStamp>
+        <ID>
+          <String>Dw Productos</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>9UHGmtKCq7JYmMqFCfD94+ySDbg=29/7/2025 17:52:3629/7/2025 17:51:30</TimeStamp>
+        <ID>
+          <String>Dw Sucursales</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>LqB92kLEJU41o5K8IOVf7+6x51Y=30/7/2025 00:59:5429/7/2025 21:45:55</TimeStamp>
+        <ID>
+          <String>Dw Fechas</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>VkkIZF719sfcr/71DLGzGSbqiuw=29/7/2025 21:52:4329/7/2025 21:52:04</TimeStamp>
+        <ID>
+          <String>Dw Empleados</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>BU/CqPnR966QTs1yg1oTn6sreKs=29/7/2025 21:53:0729/7/2025 21:52:04</TimeStamp>
+        <ID>
+          <String>Dw Planilla Pagos</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Fs4fon5aEbBhfEvsS04SPx5878U=29/7/2025 22:49:1429/7/2025 22:47:40</TimeStamp>
+        <ID>
+          <String>Dw Empleados 1</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>EGX62RWj4WOKZe3ndlt+gzypHf4=29/7/2025 22:50:0329/7/2025 22:47:40</TimeStamp>
+        <ID>
+          <String>Dw Sucursales 1</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>iixR1dAbOrjRP/0fBJF3fVCpPtk=29/7/2025 22:59:1329/7/2025 22:57:56</TimeStamp>
+        <ID>
+          <String>Dw Productos4</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>2HMOrziwFnbsBkEhoUT6a+PCAyQ=29/7/2025 22:59:0429/7/2025 22:57:56</TimeStamp>
+        <ID>
+          <String>Dw Alquileres</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>nUIem0Yi5RysOe+6Srt2chnxK/0=29/7/2025 22:59:3029/7/2025 22:57:56</TimeStamp>
+        <ID>
+          <String>Dw Ventas</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>nrbRqRc9YrS1C9wSevCfD8oO9+c=29/7/2025 23:25:0029/7/2025 23:25:00</TimeStamp>
+        <ID>
+          <String>Dw Ventas 1</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>BaJErgS1ZRa8/1IdxyhuACiAhn4=29/7/2025 23:28:2129/7/2025 23:27:55</TimeStamp>
+        <ID>
+          <String>Dw Clientes</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>6z398LxibQjp5ie3fFoHi7qGp8M=29/7/2025 23:30:1229/7/2025 23:27:55</TimeStamp>
+        <ID>
+          <String>Dw Ventas 2</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>SsKUOZjKQarXrVQFjINTd8MOgww=29/7/2025 23:34:5629/7/2025 23:34:13</TimeStamp>
+        <ID>
+          <String>Dw Clientes 1</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>aglmCHKngjnjKQKx5kVTxMJ1ki8=29/7/2025 23:35:4529/7/2025 23:34:13</TimeStamp>
+        <ID>
+          <String>Dw Productos 1</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>L4FKDmyKFOIa2xoGWGPSBV2QNPQ=29/7/2025 23:45:3029/7/2025 23:44:36</TimeStamp>
+        <ID>
+          <String>Dw Empleados 2</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>5OxXRYOu/QF914v9k0BOKaV0ayo=29/7/2025 23:46:0829/7/2025 23:44:36</TimeStamp>
+        <ID>
+          <String>Dw Sucursales 2</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>INKzbSwLlhPkRyDYIVpwgIw9AoE=29/7/2025 23:46:2629/7/2025 23:44:36</TimeStamp>
+        <ID>
+          <String>Dw Ventas 3</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>4sBazsSgNYCYoCrYN8vmZGPtXr4=29/7/2025 23:58:1429/7/2025 23:57:40</TimeStamp>
+        <ID>
+          <String>Dw Alquileres 1</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>4dRh8OKGxxyAU90Pld0joSWWFT8=29/7/2025 23:58:3629/7/2025 23:57:40</TimeStamp>
+        <ID>
+          <String>Dw Sucursales 3</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>4LzG1x2DqwMqz6lKpEm8sKYk+4M=29/7/2025 23:59:2129/7/2025 23:57:40</TimeStamp>
+        <ID>
+          <String>Dw Empleados 3</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>pF3I26UDwk39lJxCv4jJem6C2Mo=29/7/2025 23:59:5029/7/2025 23:57:40</TimeStamp>
+        <ID>
+          <String>Dw Clientes 2</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>1ggcOGYqmuEB96o0/m/R0tlFNCM=30/7/2025 00:00:4029/7/2025 23:57:40</TimeStamp>
+        <ID>
+          <String>Dw Productos 2</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>9ip/TKmX5oIAQ3k+p/Q9rQR+Cyk=30/7/2025 00:13:1930/7/2025 00:12:11</TimeStamp>
+        <ID>
+          <String>Dw Empleados 4</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>6XbrsuUSh8tya3A28eGthpHUxj8=30/7/2025 00:13:0930/7/2025 00:12:11</TimeStamp>
+        <ID>
+          <String>Dw Planilla Pagos 1</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>iVx06wYIQPocC+nf7G+nxzrFNnE=30/7/2025 00:20:3330/7/2025 00:20:12</TimeStamp>
+        <ID>
+          <String>Dw Clientes 3</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>8KDbaMj5AgiO23E0uEGXWjmD3QM=30/7/2025 00:21:4330/7/2025 00:20:12</TimeStamp>
+        <ID>
+          <String>Dw Ventas 4</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>UazkIPwTsgksCMejCzKtwrBR4bk=30/7/2025 00:21:3030/7/2025 00:20:12</TimeStamp>
+        <ID>
+          <String>Dw Alquileres 2</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>v3cb2lUF5IFotmAprwDzD5RTjtM=30/7/2025 00:29:2730/7/2025 00:28:56</TimeStamp>
+        <ID>
+          <String>Dw Clientes 4</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>tHGhqy5b3K4YTSfwslpeSFvCFCQ=30/7/2025 00:29:4730/7/2025 00:28:56</TimeStamp>
+        <ID>
+          <String>Dw Ventas 5</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>0Bns5yXVL1uZypL6WBXkQiTbx/k=30/7/2025 00:30:0230/7/2025 00:28:56</TimeStamp>
+        <ID>
+          <String>Dw Alquileres 3</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>2vjUDismVDALbPKy+rIvigHG6cc=30/7/2025 00:52:1230/7/2025 00:50:07</TimeStamp>
+        <ID>
+          <String>Dw Productos 3</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>j4StLtEQv7hLZX6KWCt8CNkP1gs=30/7/2025 00:51:4530/7/2025 00:50:07</TimeStamp>
+        <ID>
+          <String>Dw Proveedores</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>NEunl2hl11gGj67rvFkIP2IwUSc=30/7/2025 00:58:2830/7/2025 00:57:53</TimeStamp>
+        <ID>
+          <String>Dw Ventas 6</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>gjDKTeZIZ9Ye2dQo8ZMRJQweobE=30/7/2025 01:21:4330/7/2025 00:57:53</TimeStamp>
+        <ID>
+          <String>Dw Transacciones</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>2VCQ4/asLD7fsNwVj60ULFk64tI=30/7/2025 00:57:5330/7/2025 00:57:53</TimeStamp>
+        <ID>
+          <String>Dw Usuarios</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>1dOlUVu+TeXNSuMwJdbT839fLYg=30/7/2025 00:57:5330/7/2025 00:57:53</TimeStamp>
+        <ID>
+          <String>Dw Categorias</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>lDI51tGbte0erzhglbZHR2hgAz8=30/7/2025 00:59:1130/7/2025 00:57:53</TimeStamp>
+        <ID>
+          <String>Dw Productos 4</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>5nyJPasOUsvAzBYCg/KIO1WmhU4=30/7/2025 01:02:3530/7/2025 01:02:13</TimeStamp>
+        <ID>
+          <String>Dw Fechas 1</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>TG5QPqLBfq+RX8XnXjSRU1lXUuo=30/7/2025 01:03:0330/7/2025 01:02:13</TimeStamp>
+        <ID>
+          <String>Dw Sucursales 4</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>sVjUZkbaSk3kmms4mIuUnRkfcr4=30/7/2025 01:03:2430/7/2025 01:02:13</TimeStamp>
+        <ID>
+          <String>Dw Transacciones 1</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>cBJL9U8emvTSz0e6LBC7dP4i78E=30/7/2025 01:20:3930/7/2025 01:19:47</TimeStamp>
+        <ID>
+          <String>Dw Fechas 2</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>BHMcuPMQM07RStHkUSM8Ez93shI=30/7/2025 01:20:1630/7/2025 01:19:47</TimeStamp>
+        <ID>
+          <String>Dw Usuarios 1</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>aD4R4tFeZb0DfWdRNzvje/isM1Y=30/7/2025 00:17:3429/7/2025 17:51:30trnKcU4a6FjB9XjdKygrjRUW0nQ=29/7/2025 17:51:3029/7/2025 17:51:30</TimeStamp>
+        <ID>
+          <String>Dw SUPERAUTOSFinal</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>k/pgZi8W347RdwokpjrA31ygteY=29/7/2025 21:53:0729/7/2025 21:52:04xdJAbpIey+SL5NJN4FhRjjU7NIY=29/7/2025 21:52:0429/7/2025 21:52:04</TimeStamp>
+        <ID>
+          <String>Dw SUPERAUTOSFinal3</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>P/UJWqb+MB9/b0gxbkCn2l/E5yU=30/7/2025 00:45:0129/7/2025 22:47:40aGuwj74oSQAqCAzhJg80yZIbOMU=29/7/2025 22:47:4029/7/2025 22:47:40</TimeStamp>
+        <ID>
+          <String>Dw SUPERAUTOSFinal2</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>sdBfXbPNphqvXI86LuLAiBRyOJs=29/7/2025 23:46:2629/7/2025 23:44:365S3V0vYRpDqqsXvGs3kiGRk3wsI=29/7/2025 23:44:3629/7/2025 23:44:36</TimeStamp>
+        <ID>
+          <String>Dw SUPERAUTOSFinal6</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>I/4yxNvTIWEIBx9ZFdMoB7THtEw=30/7/2025 00:00:4029/7/2025 23:57:40b+7Cdzo4N9lfSceMWreby2TF25c=29/7/2025 23:57:4029/7/2025 23:57:40</TimeStamp>
+        <ID>
+          <String>Dw SUPERAUTOSFinal7</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>pcfDcU/4pF+Dd9VhI81AscXZ5lY=30/7/2025 00:21:4330/7/2025 00:20:11yvVXJlELcr72dYW7uXcbxN2WBOM=30/7/2025 00:20:1230/7/2025 00:20:12</TimeStamp>
+        <ID>
+          <String>Dw SUPERAUTOSFinal9</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>9wSiQLGqym8kRJuIYtfq2ZF9TaQ=30/7/2025 00:52:1230/7/2025 00:50:078IV3FBhw/er5AoWNlKzE1Z0ePOo=30/7/2025 00:50:0730/7/2025 00:50:07</TimeStamp>
+        <ID>
+          <String>Dw SUPERAUTOSFinal4</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>CayuNsU457AeKwURtTtKpmXU18w=30/7/2025 01:21:4430/7/2025 01:02:13FIFgVwlufKUBvh1pC0xC50+bXaU=30/7/2025 01:02:1330/7/2025 01:02:13</TimeStamp>
+        <ID>
+          <String>Dw SUPERAUTOSFinal5</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>Ff67F+uQeBNv7iJ9NDZRI/Wd63o=30/7/2025 01:21:4430/7/2025 01:19:47ii00mHkgqCwgyyPN4LaIzwYcWjw=30/7/2025 01:19:4730/7/2025 01:19:47</TimeStamp>
+        <ID>
+          <String>Dw SUPERAUTOSFinal10</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>T0GsZAwqY9mfhmlQ7nkxOF+oKNA=29/7/2025 16:46:4929/7/2025 16:46:48</TimeStamp>
+      <ID>
+        <String>SUPERAUTOSFINAL</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2025-07-30T07:22:01.526667Z</LastDeployed>
+</DeploymentSnapshot>
