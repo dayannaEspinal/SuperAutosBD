@@ -8,42 +8,12 @@
   </Database>
   <Cubes>
     <ProjectItem>
-      <Name>Dw SUPERAUTOSFinal8.cube</Name>
-      <FullPath>Dw SUPERAUTOSFinal8.cube</FullPath>
-      <Dependencies>
-        <ProjectItem>
-          <Name>Dw SUPERAUTOSFinal8.partitions</Name>
-          <FullPath>Dw SUPERAUTOSFinal8.partitions</FullPath>
-        </ProjectItem>
-      </Dependencies>
-    </ProjectItem>
-    <ProjectItem>
       <Name>Dw SUPERAUTOSFinal3.cube</Name>
       <FullPath>Dw SUPERAUTOSFinal3.cube</FullPath>
       <Dependencies>
         <ProjectItem>
           <Name>Dw SUPERAUTOSFinal3.partitions</Name>
           <FullPath>Dw SUPERAUTOSFinal3.partitions</FullPath>
-        </ProjectItem>
-      </Dependencies>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>Dw SUPERAUTOSFinal2.cube</Name>
-      <FullPath>Dw SUPERAUTOSFinal2.cube</FullPath>
-      <Dependencies>
-        <ProjectItem>
-          <Name>Dw SUPERAUTOSFinal2.partitions</Name>
-          <FullPath>Dw SUPERAUTOSFinal2.partitions</FullPath>
-        </ProjectItem>
-      </Dependencies>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>Dw SUPERAUTOSFinal6.cube</Name>
-      <FullPath>Dw SUPERAUTOSFinal6.cube</FullPath>
-      <Dependencies>
-        <ProjectItem>
-          <Name>Dw SUPERAUTOSFinal6.partitions</Name>
-          <FullPath>Dw SUPERAUTOSFinal6.partitions</FullPath>
         </ProjectItem>
       </Dependencies>
     </ProjectItem>
@@ -58,12 +28,42 @@
       </Dependencies>
     </ProjectItem>
     <ProjectItem>
-      <Name>Dw SUPERAUTOSFinal9.cube</Name>
-      <FullPath>Dw SUPERAUTOSFinal9.cube</FullPath>
+      <Name>Dw SUPERAUTOSFinal6.cube</Name>
+      <FullPath>Dw SUPERAUTOSFinal6.cube</FullPath>
       <Dependencies>
         <ProjectItem>
-          <Name>Dw SUPERAUTOSFinal9.partitions</Name>
-          <FullPath>Dw SUPERAUTOSFinal9.partitions</FullPath>
+          <Name>Dw SUPERAUTOSFinal6.partitions</Name>
+          <FullPath>Dw SUPERAUTOSFinal6.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dw SUPERAUTOSFinal11.cube</Name>
+      <FullPath>Dw SUPERAUTOSFinal11.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Dw SUPERAUTOSFinal11.partitions</Name>
+          <FullPath>Dw SUPERAUTOSFinal11.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dw SUPERAUTOSFinal2.cube</Name>
+      <FullPath>Dw SUPERAUTOSFinal2.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Dw SUPERAUTOSFinal2.partitions</Name>
+          <FullPath>Dw SUPERAUTOSFinal2.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dw SUPERAUTOSFinal1.cube</Name>
+      <FullPath>Dw SUPERAUTOSFinal1.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Dw SUPERAUTOSFinal1.partitions</Name>
+          <FullPath>Dw SUPERAUTOSFinal1.partitions</FullPath>
         </ProjectItem>
       </Dependencies>
     </ProjectItem>
@@ -78,12 +78,22 @@
       </Dependencies>
     </ProjectItem>
     <ProjectItem>
-      <Name>Dw SUPERAUTOSFinal5.cube</Name>
-      <FullPath>Dw SUPERAUTOSFinal5.cube</FullPath>
+      <Name>Dw SUPERAUTOSFinal8.cube</Name>
+      <FullPath>Dw SUPERAUTOSFinal8.cube</FullPath>
       <Dependencies>
         <ProjectItem>
-          <Name>Dw SUPERAUTOSFinal5.partitions</Name>
-          <FullPath>Dw SUPERAUTOSFinal5.partitions</FullPath>
+          <Name>Dw SUPERAUTOSFinal8.partitions</Name>
+          <FullPath>Dw SUPERAUTOSFinal8.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dw SUPERAUTOSFinal9.cube</Name>
+      <FullPath>Dw SUPERAUTOSFinal9.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Dw SUPERAUTOSFinal9.partitions</Name>
+          <FullPath>Dw SUPERAUTOSFinal9.partitions</FullPath>
         </ProjectItem>
       </Dependencies>
     </ProjectItem>
@@ -94,6 +104,16 @@
         <ProjectItem>
           <Name>Dw SUPERAUTOSFinal10.partitions</Name>
           <FullPath>Dw SUPERAUTOSFinal10.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dw SUPERAUTOSFinal5.cube</Name>
+      <FullPath>Dw SUPERAUTOSFinal5.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Dw SUPERAUTOSFinal5.partitions</Name>
+          <FullPath>Dw SUPERAUTOSFinal5.partitions</FullPath>
         </ProjectItem>
       </Dependencies>
     </ProjectItem>
@@ -270,6 +290,98 @@
     <ProjectItem>
       <Name>Dw Usuarios 1.dim</Name>
       <FullPath>Dw Usuarios 1.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dw Productos 5.dim</Name>
+      <FullPath>Dw Productos 5.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dw Sucursales 5.dim</Name>
+      <FullPath>Dw Sucursales 5.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dw Ventas 7.dim</Name>
+      <FullPath>Dw Ventas 7.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dw Productos 6.dim</Name>
+      <FullPath>Dw Productos 6.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dw Sucursales 6.dim</Name>
+      <FullPath>Dw Sucursales 6.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dw Fechas 3.dim</Name>
+      <FullPath>Dw Fechas 3.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dw Productos 7.dim</Name>
+      <FullPath>Dw Productos 7.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dw Clientes 5.dim</Name>
+      <FullPath>Dw Clientes 5.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dw Empleados 1 1.dim</Name>
+      <FullPath>Dw Empleados 1 1.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dw Sucursales 1 1.dim</Name>
+      <FullPath>Dw Sucursales 1 1.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dw Productos 1 1.dim</Name>
+      <FullPath>Dw Productos 1 1.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dw Ventas 1 1.dim</Name>
+      <FullPath>Dw Ventas 1 1.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dw Alquileres 1 1.dim</Name>
+      <FullPath>Dw Alquileres 1 1.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dw Sucursales 1 2.dim</Name>
+      <FullPath>Dw Sucursales 1 2.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dw Alquileres 1 2.dim</Name>
+      <FullPath>Dw Alquileres 1 2.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dw Empleados 1 2.dim</Name>
+      <FullPath>Dw Empleados 1 2.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dw Ventas 1 2.dim</Name>
+      <FullPath>Dw Ventas 1 2.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dw Empleados 1 3.dim</Name>
+      <FullPath>Dw Empleados 1 3.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dw Alquileres 2 1.dim</Name>
+      <FullPath>Dw Alquileres 2 1.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dw Transacciones 1 1.dim</Name>
+      <FullPath>Dw Transacciones 1 1.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dw Sucursales 1 3.dim</Name>
+      <FullPath>Dw Sucursales 1 3.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dw Sucursales 1 4.dim</Name>
+      <FullPath>Dw Sucursales 1 4.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dw Empleados 1 4.dim</Name>
+      <FullPath>Dw Empleados 1 4.dim</FullPath>
     </ProjectItem>
   </Dimensions>
   <DataSources>

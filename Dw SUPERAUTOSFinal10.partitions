@@ -1,19 +1,19 @@
-﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="049d8690-6a76-45dd-81bf-efa754e3556f" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="980d73e0-bbc2-4f0d-8117-8c5898b46748" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Dw SUPERAUTOSFinal10</ID>
   <MeasureGroups>
     <MeasureGroup>
-      <ID>Dw Fechas</ID>
+      <ID>Dw Transacciones</ID>
       <Partitions>
-        <Partition dwd:design-time-name="ef539309-e528-42b4-ae8c-aefa6c973725">
-          <ID>Dw Fechas</ID>
-          <Name>Dw Fechas</Name>
+        <Partition dwd:design-time-name="225ee97a-37d4-4484-bb1d-39e5c9c53690">
+          <ID>Dw Transacciones</ID>
+          <Name>Dw Transacciones</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="4b706fe3-a16b-42ce-8c51-da68a510b560">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="5f6b62fb-13e0-4c13-aed6-b66cface2012">
             <DataSourceViewID>Dw SUPERAUTOSFinal</DataSourceViewID>
-            <TableID>dbo_Dw_Fechas</TableID>
+            <TableID>dbo_Dw_Transacciones</TableID>
           </Source>
           <StorageMode>Molap</StorageMode>
           <CurrentStorageMode>Molap</CurrentStorageMode>
@@ -22,18 +22,18 @@
       </Partitions>
     </MeasureGroup>
     <MeasureGroup>
-      <ID>Dw Usuarios</ID>
+      <ID>Dw Sucursales</ID>
       <Partitions>
-        <Partition dwd:design-time-name="8a25c218-0e7c-4256-8236-9f960f1222e6">
-          <ID>Dw Usuarios</ID>
-          <Name>Dw Usuarios</Name>
+        <Partition dwd:design-time-name="4e6e1617-55be-4503-8c41-9796c6bc7caa">
+          <ID>Dw Sucursales</ID>
+          <Name>Dw Sucursales</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="d62e2cf7-11dd-472b-b5fb-f0820a8798b7">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="b7626653-da82-4d99-8813-0ee80324c705">
             <DataSourceViewID>Dw SUPERAUTOSFinal</DataSourceViewID>
-            <TableID>dbo_Dw_Usuarios</TableID>
+            <TableID>dbo_Dw_Sucursales</TableID>
           </Source>
           <StorageMode>Molap</StorageMode>
           <CurrentStorageMode>Molap</CurrentStorageMode>

@@ -1,37 +1,17 @@
-﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="c9aee69d-d25d-4f53-803c-8503edb9e565" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="3354ad74-c5b5-4a34-bb04-8edbaf080f8a" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Dw SUPERAUTOSFinal9</ID>
   <MeasureGroups>
     <MeasureGroup>
-      <ID>Dw Clientes</ID>
-      <Partitions>
-        <Partition dwd:design-time-name="b8a885d7-f2c7-4a91-9b6c-dcac8769d202">
-          <ID>Dw Clientes</ID>
-          <Name>Dw Clientes</Name>
-          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
-          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
-          <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="c8c48b0e-c803-4a7e-a045-1a59326f82c8">
-            <DataSourceViewID>Dw SUPERAUTOSFinal</DataSourceViewID>
-            <TableID>dbo_Dw_Clientes</TableID>
-          </Source>
-          <StorageMode>Molap</StorageMode>
-          <CurrentStorageMode>Molap</CurrentStorageMode>
-          <ProcessingMode>Regular</ProcessingMode>
-        </Partition>
-      </Partitions>
-    </MeasureGroup>
-    <MeasureGroup>
       <ID>Dw Ventas</ID>
       <Partitions>
-        <Partition dwd:design-time-name="bfeab7f1-3253-4bc7-8ffb-360a37cb43dc">
+        <Partition dwd:design-time-name="e25ec93a-7a25-48fd-ad76-705f1699b119">
           <ID>Dw Ventas</ID>
           <Name>Dw Ventas</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="84eecf51-981b-425b-b5f2-5a06240d3cfc">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="74034269-68c5-4658-bf76-9a370992feb2">
             <DataSourceViewID>Dw SUPERAUTOSFinal</DataSourceViewID>
             <TableID>dbo_Dw_Ventas</TableID>
           </Source>
@@ -42,16 +22,36 @@
       </Partitions>
     </MeasureGroup>
     <MeasureGroup>
+      <ID>Dw Empleados</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="053cd9da-3d50-4c78-b063-370a384f3c2a">
+          <ID>Dw Empleados</ID>
+          <Name>Dw Empleados</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="a3c0be3e-f94b-4bca-b6f6-a8b03a961173">
+            <DataSourceViewID>Dw SUPERAUTOSFinal</DataSourceViewID>
+            <TableID>dbo_Dw_Empleados</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
       <ID>Dw Alquileres</ID>
       <Partitions>
-        <Partition dwd:design-time-name="114d5e48-e199-4059-bcbe-33efb9a823f7">
+        <Partition dwd:design-time-name="190c61a6-a58f-4ff5-bf46-95ee78a2cfe9">
           <ID>Dw Alquileres</ID>
           <Name>Dw Alquileres</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="ce6d1435-1d92-4c8c-b112-64d9d6c26206">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="73ae201d-83ec-4046-b161-4cf489bcb1a3">
             <DataSourceViewID>Dw SUPERAUTOSFinal</DataSourceViewID>
             <TableID>dbo_Dw_Alquileres</TableID>
           </Source>

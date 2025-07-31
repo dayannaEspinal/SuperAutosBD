@@ -1,37 +1,17 @@
-﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="41e11a77-d324-4ca0-b330-19870109c20a" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
-  <ID>Dw SUPERAUTOSFinal</ID>
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="39ff6885-da8f-4763-8a29-c6bbac1c5446" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Dw SUPERAUTOSFinal8</ID>
   <MeasureGroups>
-    <MeasureGroup>
-      <ID>Dw Productos</ID>
-      <Partitions>
-        <Partition dwd:design-time-name="4710188d-81b7-4fb2-af91-abfcd27dfb41">
-          <ID>Dw Productos</ID>
-          <Name>Dw Productos</Name>
-          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
-          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
-          <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="eaa0108a-a1ca-43bd-acde-2fc558efb379">
-            <DataSourceViewID>Dw SUPERAUTOSFinal</DataSourceViewID>
-            <TableID>dbo_Dw_Productos</TableID>
-          </Source>
-          <StorageMode>Molap</StorageMode>
-          <CurrentStorageMode>Molap</CurrentStorageMode>
-          <ProcessingMode>Regular</ProcessingMode>
-        </Partition>
-      </Partitions>
-    </MeasureGroup>
     <MeasureGroup>
       <ID>Dw Sucursales</ID>
       <Partitions>
-        <Partition dwd:design-time-name="668fa205-1406-4388-a0bd-3743a33eaa79">
+        <Partition dwd:design-time-name="6cb021ee-99cc-46be-bbd6-58026d380e98">
           <ID>Dw Sucursales</ID>
           <Name>Dw Sucursales</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="bd61beb4-ae14-4544-afd6-133cabd7ff25">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="3f30ec89-3d51-4ad0-9755-94d8f295b094">
             <DataSourceViewID>Dw SUPERAUTOSFinal</DataSourceViewID>
             <TableID>dbo_Dw_Sucursales</TableID>
           </Source>

@@ -140,29 +140,77 @@
       <Dimension>
         <ID>Dw Usuarios 1</ID>
       </Dimension>
+      <Dimension>
+        <ID>Dw Productos 5</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dw Sucursales 5</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dw Ventas 7</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dw Productos 6</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dw Sucursales 6</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dw Fechas 3</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dw Productos 7</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dw Clientes 5</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dw Empleados 1 1</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dw Sucursales 1 1</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dw Productos 1 1</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dw Ventas 1 1</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dw Alquileres 1 1</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dw Sucursales 1 2</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dw Alquileres 1 2</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dw Empleados 1 2</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dw Ventas 1 2</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dw Empleados 1 3</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dw Alquileres 2 1</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dw Transacciones 1 1</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dw Sucursales 1 3</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dw Sucursales 1 4</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Dw Empleados 1 4</ID>
+      </Dimension>
     </Dimensions>
     <Cubes>
-      <Cube>
-        <ID>Dw SUPERAUTOSFinal</ID>
-        <MeasureGroups>
-          <MeasureGroup>
-            <ID>Dw Productos</ID>
-            <Partitions>
-              <Partition>
-                <ID>Dw Productos</ID>
-              </Partition>
-            </Partitions>
-          </MeasureGroup>
-          <MeasureGroup>
-            <ID>Dw Sucursales</ID>
-            <Partitions>
-              <Partition>
-                <ID>Dw Sucursales</ID>
-              </Partition>
-            </Partitions>
-          </MeasureGroup>
-        </MeasureGroups>
-      </Cube>
       <Cube>
         <ID>Dw SUPERAUTOSFinal3</ID>
         <MeasureGroups>
@@ -185,8 +233,50 @@
         </MeasureGroups>
       </Cube>
       <Cube>
-        <ID>Dw SUPERAUTOSFinal2</ID>
+        <ID>Dw SUPERAUTOSFinal2 1</ID>
         <MeasureGroups>
+          <MeasureGroup>
+            <ID>Dw Productos</ID>
+            <Partitions>
+              <Partition>
+                <ID>Dw Productos</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>Dw Clientes</ID>
+            <Partitions>
+              <Partition>
+                <ID>Dw Clientes</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+      <Cube>
+        <ID>Dw SUPERAUTOSFinal8</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>Dw Sucursales</ID>
+            <Partitions>
+              <Partition>
+                <ID>Dw Sucursales</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+      <Cube>
+        <ID>Dw SUPERAUTOSFinal9</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>Dw Ventas</ID>
+            <Partitions>
+              <Partition>
+                <ID>Dw Ventas</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
           <MeasureGroup>
             <ID>Dw Empleados</ID>
             <Partitions>
@@ -196,10 +286,60 @@
             </Partitions>
           </MeasureGroup>
           <MeasureGroup>
+            <ID>Dw Alquileres</ID>
+            <Partitions>
+              <Partition>
+                <ID>Dw Alquileres</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+      <Cube>
+        <ID>Dw SUPERAUTOSFinal10</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>Dw Transacciones</ID>
+            <Partitions>
+              <Partition>
+                <ID>Dw Transacciones</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
             <ID>Dw Sucursales</ID>
             <Partitions>
               <Partition>
                 <ID>Dw Sucursales</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+      <Cube>
+        <ID>Dw SUPERAUTOSFinal1</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>Dw Productos</ID>
+            <Partitions>
+              <Partition>
+                <ID>Dw Productos</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>Dw Sucursales</ID>
+            <Partitions>
+              <Partition>
+                <ID>Dw Sucursales</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>Dw Fechas</ID>
+            <Partitions>
+              <Partition>
+                <ID>Dw Fechas</ID>
               </Partition>
             </Partitions>
           </MeasureGroup>
@@ -221,88 +361,6 @@
             <Partitions>
               <Partition>
                 <ID>Dw Sucursales</ID>
-              </Partition>
-            </Partitions>
-          </MeasureGroup>
-          <MeasureGroup>
-            <ID>Dw Ventas</ID>
-            <Partitions>
-              <Partition>
-                <ID>Dw Ventas</ID>
-              </Partition>
-            </Partitions>
-          </MeasureGroup>
-        </MeasureGroups>
-      </Cube>
-      <Cube>
-        <ID>Dw SUPERAUTOSFinal7</ID>
-        <MeasureGroups>
-          <MeasureGroup>
-            <ID>Dw Alquileres</ID>
-            <Partitions>
-              <Partition>
-                <ID>Dw Alquileres</ID>
-              </Partition>
-            </Partitions>
-          </MeasureGroup>
-          <MeasureGroup>
-            <ID>Dw Sucursales</ID>
-            <Partitions>
-              <Partition>
-                <ID>Dw Sucursales</ID>
-              </Partition>
-            </Partitions>
-          </MeasureGroup>
-          <MeasureGroup>
-            <ID>Dw Empleados</ID>
-            <Partitions>
-              <Partition>
-                <ID>Dw Empleados</ID>
-              </Partition>
-            </Partitions>
-          </MeasureGroup>
-          <MeasureGroup>
-            <ID>Dw Clientes</ID>
-            <Partitions>
-              <Partition>
-                <ID>Dw Clientes</ID>
-              </Partition>
-            </Partitions>
-          </MeasureGroup>
-          <MeasureGroup>
-            <ID>Dw Productos</ID>
-            <Partitions>
-              <Partition>
-                <ID>Dw Productos</ID>
-              </Partition>
-            </Partitions>
-          </MeasureGroup>
-        </MeasureGroups>
-      </Cube>
-      <Cube>
-        <ID>Dw SUPERAUTOSFinal9</ID>
-        <MeasureGroups>
-          <MeasureGroup>
-            <ID>Dw Clientes</ID>
-            <Partitions>
-              <Partition>
-                <ID>Dw Clientes</ID>
-              </Partition>
-            </Partitions>
-          </MeasureGroup>
-          <MeasureGroup>
-            <ID>Dw Ventas</ID>
-            <Partitions>
-              <Partition>
-                <ID>Dw Ventas</ID>
-              </Partition>
-            </Partitions>
-          </MeasureGroup>
-          <MeasureGroup>
-            <ID>Dw Alquileres</ID>
-            <Partitions>
-              <Partition>
-                <ID>Dw Alquileres</ID>
               </Partition>
             </Partitions>
           </MeasureGroup>
@@ -330,13 +388,42 @@
         </MeasureGroups>
       </Cube>
       <Cube>
-        <ID>Dw SUPERAUTOSFinal5</ID>
+        <ID>Dw SUPERAUTOSFinal11</ID>
         <MeasureGroups>
           <MeasureGroup>
-            <ID>Dw Fechas</ID>
+            <ID>Dw Productos</ID>
             <Partitions>
               <Partition>
-                <ID>Dw Fechas</ID>
+                <ID>Dw Productos</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>Dw Ventas</ID>
+            <Partitions>
+              <Partition>
+                <ID>Dw Ventas</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>Dw Alquileres</ID>
+            <Partitions>
+              <Partition>
+                <ID>Dw Alquileres</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+      <Cube>
+        <ID>Dw SUPERAUTOSFinal2</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>Dw Empleados</ID>
+            <Partitions>
+              <Partition>
+                <ID>Dw Empleados</ID>
               </Partition>
             </Partitions>
           </MeasureGroup>
@@ -348,32 +435,24 @@
               </Partition>
             </Partitions>
           </MeasureGroup>
-          <MeasureGroup>
-            <ID>Dw Transacciones</ID>
-            <Partitions>
-              <Partition>
-                <ID>Dw Transacciones</ID>
-              </Partition>
-            </Partitions>
-          </MeasureGroup>
         </MeasureGroups>
       </Cube>
       <Cube>
-        <ID>Dw SUPERAUTOSFinal10</ID>
+        <ID>Dw SUPERAUTOSFinal5</ID>
         <MeasureGroups>
           <MeasureGroup>
-            <ID>Dw Fechas</ID>
+            <ID>Dw Sucursales</ID>
             <Partitions>
               <Partition>
-                <ID>Dw Fechas</ID>
+                <ID>Dw Sucursales</ID>
               </Partition>
             </Partitions>
           </MeasureGroup>
           <MeasureGroup>
-            <ID>Dw Usuarios</ID>
+            <ID>Dw Empleados</ID>
             <Partitions>
               <Partition>
-                <ID>Dw Usuarios</ID>
+                <ID>Dw Empleados</ID>
               </Partition>
             </Partitions>
           </MeasureGroup>
